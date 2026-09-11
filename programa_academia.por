@@ -1,20 +1,20 @@
 programa
 {
-      funcao real calcularMensalidade(inteiro plano)
+      funcao real mostrarMensalidade(inteiro plano)
     {
         real valor
 
         se (plano == 1)
         {
-            valor = 80.00
+            valor = 40.00
         }
         senao se (plano == 2)
         {
-            valor = 120.00
+            valor = 190.00
         }
         senao
         {
-            valor = 150.00
+            valor = 200.00
         }
 
         retorne valor
